@@ -1,0 +1,6 @@
+{
+  "deploy": {
+    "startCommand": "/data/boot.sh && pnpm clawdbot gateway",
+    "restartPolicyType": "ON_FAILURE"
+  }
+}
